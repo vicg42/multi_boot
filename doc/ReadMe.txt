@@ -1,0 +1,1 @@
+Как эмулируется плохая загрузка, см. xapp1247-multiboot-spi.pdf пункт Fallback – Triggered by CRC error
