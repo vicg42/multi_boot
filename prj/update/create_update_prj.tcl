@@ -100,13 +100,13 @@ set proj_dir [get_property directory [current_project]]
 # None
 
 # Set project properties
-set_property target_language VHDL [current_project]
 set obj [get_projects update]
 set_property "board_part" "xilinx.com:ac701:part0:1.3" $obj
 set_property "default_lib" "work" $obj
 set_property "generate_ip_upgrade_log" "0" $obj
 set_property "sim.ip.auto_export_scripts" "1" $obj
 set_property "simulator_language" "Mixed" $obj
+set_property "target_language" "VHDL" $obj
 
 
 # Create 'sources_1' fileset (if not found)
